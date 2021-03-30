@@ -21,7 +21,7 @@ module Steam
         appids: appids.join(','),
         cc: currency,
         l: language
-      }
+      })
 
       response
     end
